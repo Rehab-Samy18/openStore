@@ -1,0 +1,15 @@
+<div class="content-container">
+    <div class="main-title">
+        <div class="title">Products</div>
+        <a class="sync-all" [routerLink]="['/syncAll']">Sync</a>
+    </div>
+    <div class="product-container" *ngFor="let product of productsData">
+        <div *ngIf="product.category==='simple'">
+            <div class="img-container">
+                <img src="{{product.imageUrl}}">
+            </div><br>
+            {{product.name}}<br><br>
+            ${{product.price}}
+        </div>
+    </div>
+</div>

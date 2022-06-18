@@ -1,0 +1,40 @@
+.content-container{
+    width: 85%;
+    position: fixed;
+    left:17%;
+    height: 100%;
+    background-color: rgb(232, 243, 247);
+    margin-top: 52px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+img{
+    width:100px;
+    height:80px;
+    margin-top: 30px;
+    text-align: center;
+}
+.img-container{
+    width:200px;
+    height: 130px;
+    background-color: white;
+}
+.product-container{
+    float: left;
+    width: 20%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 420px;
+    margin-top: 10px;
+    text-align: center;
+}
+.title{
+    font-family:sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-left: 420px;
+    position:static;
+    display: inline;
+}
