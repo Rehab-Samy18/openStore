@@ -24,7 +24,7 @@ export class SyncproductComponent implements OnInit,OnDestroy {
     this.sub = this.ac.params.subscribe(a=>{
       this.sub2 = this.prodSer.getProductById(a['_id']).subscribe(d=>{
          this.product = d
-         console.log(a);
+         console.log(d);
        })
     })
   }

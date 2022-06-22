@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { ProductModule } from './product/product.module';
-import { ProductComponent } from './product/product/product.component';
 
 @NgModule({
   declarations: [
